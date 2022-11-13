@@ -1,0 +1,20 @@
+/**
+ * main.c -- программа "Hello, students!"
+ *
+ * Copyright (c) 2014, Dasha  <zhitova@cs.karelia.ru>
+ *
+ * This code is licensed under a MIT-style license.
+ */
+
+#include <stdio.h>
+
+void privet();
+int number();
+int main()
+{
+    int x = 0;
+    privet();
+    scanf("%d", &x);
+    number(x);
+    printf("%d\n", number(x));
+}
