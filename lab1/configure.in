@@ -1,0 +1,5 @@
+AC_INIT([src/math.c])
+AM_INIT_AUTOMAKE([math], [0.1])
+AC_PROG_CC
+
+AC_OUTPUT([Makefile src/Makefile doc/Makefile])
